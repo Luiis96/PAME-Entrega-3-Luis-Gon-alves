@@ -1,0 +1,88 @@
+.Header {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(46, 161, 255);
+  position: relative;
+  box-shadow: 0px 1px 5px black;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.Header > h1 {
+  position: absolute;
+  left: 1.5%;
+  top: -7%;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.container {
+  width: 7%;
+  height: 40%;
+  position: absolute;
+  left: 92%;
+  top: 10%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.Entrar {
+  width: 40%;
+}
+
+.Entrar > label {
+  cursor: pointer;
+  top: 50%;
+  text-shadow: 2px 2px 5px black;
+}
+
+.Entrar > button {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+.Borda {
+  width: 0%;
+  height: 40%;
+  border-right: 1px solid white;
+  box-shadow: 2px 2px 5px black;
+}
+
+.Pesquisa {
+  width: 30%;
+  height: 20%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 45%;
+}
+
+.Pesquisa > input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.Pesquisa > label {
+  position: absolute;
+  transform: translate(-50%, 0%);
+  left: 95%;
+  width: 10%;
+  height: 100%;
+}
+
+#Lupa {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+}

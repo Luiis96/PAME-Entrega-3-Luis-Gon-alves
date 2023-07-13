@@ -1,0 +1,31 @@
+.Container {
+  width: 40%;
+  height: 25%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  left: 50%;
+  bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Container > label {
+  cursor: pointer;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.Container > button {
+  opacity: 0%;
+  position: absolute;
+  left: 0%;
+}
+
+.Borda {
+  width: 0%;
+  height: 40%;
+  border-right: 1px solid white;
+  box-shadow: 2px 2px 5px black;
+}
